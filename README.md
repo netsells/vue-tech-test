@@ -12,7 +12,7 @@ You can find out more about our role here https://netsells.co.uk/about/careers/f
 
 ## Goal
 
-We would like you to develop a simple Vue app using a mocked API. The goal is to generate a blog using the data received from the API, which allows the user to click through to view each individual article, as well as viewing a preview of all the articles. 
+We would like you to develop a simple Vue app using a mocked API. The goal is to generate a blog using the data received from the API, which allows the user to click through to view each individual article, as well as viewing a preview of all the articles. We'd also like you to add search functionality as well, so that we can see live binding with the API calls.
 
 ## Requirements
 
@@ -41,6 +41,7 @@ The following endpoints are available for you to interact with:
 
 ```
 GET    /Articles
+GET    /Articles?search=
 GET    /Articles/:id 
 ```
 
